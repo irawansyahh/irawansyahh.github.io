@@ -34,11 +34,10 @@
     background-clip: text;
 }
 
-.header_area .main-menu {
+.header_area .main-menu .navbar-nav a:hover{
     background: var(--gradient-color);
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 
