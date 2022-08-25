@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -84,33 +85,29 @@
             </nav>
         </div>
     </header>
-
-    <label class="switch">
-        <input type="checkbox">
-        <div class="slider"></div>
-        <div class="bg"></div>
-    </label>
-
-    <script>
-        const btnOk = document
-          .querySelector('.the-blood-coders__ok-btn');
-
-        btnOk.addEventListener('click', (e) => {
-          e.target.closest('.the-blood-coders__backdrop').remove();
-        });
-    </script>
-
     <!--  ======================= End Header Area ============================== -->
 
     <!--  ======================= Start Main Area ================================ -->
     <main class="site-main" id= "Main">
-
-
         <!--  ======================= Start Banner Area =======================  -->
         <section class="site-banner">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-6 site-title">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <div class="slider"></div>
+                            <div class="bg"></div>
+                        </label>
+
+                        <script>
+                            const btnOk = document
+                              .querySelector('.the-blood-coders__ok-btn');
+
+                            btnOk.addEventListener('click', (e) => {
+                              e.target.closest('.the-blood-coders__backdrop').remove();
+                            });
+                        </script>
                         <h3 class="title-text">Hai</h3>
                         <h2>I'm Irawansyah & </h2>
                         <h2><span id="typed"></span></h2>
